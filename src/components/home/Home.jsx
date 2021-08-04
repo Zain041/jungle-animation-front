@@ -20,6 +20,7 @@ import screen2 from './assets/images/screen2.jpg'
 import pinetree from './assets/png/pineapple.png'
 import lava from './assets/png/lava.png'
 import volcanobg from './assets/images/volcano.jpg'
+import grass1 from './assets/images/grass2.png'
 import vines4 from './assets/png/vines4.png'
 import vines5 from './assets/png/vines5.png'
 import palm1 from './assets/images/coconut-tree.png'
@@ -91,12 +92,13 @@ const Home = () => {
                      {/* <img width='200px' src={pinetree} alt="" srcset="" style={{top:'25%',right:'16%',position:'absolute'}} /> */}
                      <img  className={`palm-tree ${show==true?"d-block":"d-none"}`} src={palm1} alt="" srcset=""  />
                      <img  className={`palm-tree1 ${show==true?"d-block":"d-none"}`} src={palm1} alt="" srcset=""  />
-                    
+                     
                      <img className={`mask ${show==true?"d-block":"d-none"}`}  src={tikimasl1} alt="" srcset=""  />
                      <img className={`butterfly1 ${show==true?"d-block":"d-none"}`}  src={butterfly1} alt="" srcset="" s />
                      <img width='100px' src={butterfly2} alt="" srcset="" style={{top:'9%',left:'0',position:'absolute'}} />
                      <img className="lizard" src="https://www.animatedimages.org/data/media/189/animated-lizard-image-0018.gif" border="0" alt="animated-lizard-image-0072" />
                      <img className={`turtle ${show==true?"d-block":"d-none"}`}  src={turtle1} alt="" srcset=""  />
+                    
                      
 
                 </div>
@@ -107,6 +109,17 @@ const Home = () => {
            
             </div>
             </div>
+            <img className="grass" src={grass1} alt="" srcset=""  />
+            <img className="grass1" src={grass1} alt="" srcset=""  />
+            <img className="grass2" src={grass1} alt="" srcset=""  />
+            <img className="grass3" src={grass1} alt="" srcset=""  />
+            <img className="grass4" src={grass1} alt="" srcset=""  />
+            <img className="grass5" src={grass1} alt="" srcset=""  />
+            <img className="grass6" src={grass1} alt="" srcset=""  />
+            <img className="grass7" src={grass1} alt="" srcset=""  />
+            <img className="grass8" src={grass1} alt="" srcset=""  />
+            <img className="grass9" src={grass1} alt="" srcset=""  />
+        
             <div className="row p-0 m-0">
             <div className=" p-0 m-0 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-12">
             <div className="section-2 ">
@@ -118,9 +131,22 @@ const Home = () => {
                           border="0" alt="animated-rabbit-image-0088" />
                      <img className={` ${showSecond==true?"palm-tree8-show visible":"palm-tree8 insvisible"}`} src={palm1} alt="" srcset=""  />
                      <img className={` ${showSecond==true?"palm-tree9-show visible":"palm-tree9 invisible"}`} src={palm1} alt="" srcset=""  />
+                    
                 </div>
             </div>
             </div>
+            <img className="grass10" src={grass1} alt="" srcset=""  />
+            <img className="grass11" src={grass1} alt="" srcset=""  />
+            <img className="grass12" src={grass1} alt="" srcset=""  />
+            <img className="grass13" src={grass1} alt="" srcset=""  />
+            <img className="grass14" src={grass1} alt="" srcset=""  />
+            <img className="grass15" src={grass1} alt="" srcset=""  />
+            <img className="grass16" src={grass1} alt="" srcset=""  />
+            <img className="grass17" src={grass1} alt="" srcset=""  />
+            <img className="grass18" src={grass1} alt="" srcset=""  />
+            <img className="grass19" src={grass1} alt="" srcset=""  />
+            <img className="grass20" src={grass1} alt="" srcset=""  />
+            <img className="grass21" src={grass1} alt="" srcset=""  />
             <div className="row p-0 m-0">
             <div className=" p-0 m-0 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-12">
             <div className="section-3 ">
@@ -137,6 +163,19 @@ const Home = () => {
                 </div>
             </div>
             </div>
+            <img className="grass30" src={grass1} alt="" srcset=""  />
+            <img className="grass31" src={grass1} alt="" srcset=""  />
+            <img className="grass29" src={grass1} alt="" srcset=""  />
+            <img className="grass22" src={grass1} alt="" srcset=""  />
+            <img className="grass23" src={grass1} alt="" srcset=""  />
+            <img className="grass24" src={grass1} alt="" srcset=""  />
+            <img className="grass25" src={grass1} alt="" srcset=""  />
+            <img className="grass26" src={grass1} alt="" srcset=""  />
+            <img className="grass27" src={grass1} alt="" srcset=""  />
+            <img className="grass28" src={grass1} alt="" srcset=""  />
+            <img className="grass24" src={grass1} alt="" srcset=""  />
+            <img className="grass23" src={grass1} alt="" srcset=""  />
+            <img className="grass22" src={grass1} alt="" srcset=""  />
             <div className="row p-0 m-0">
             <div className=" p-0 m-0 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-12">
             <div className="section-4 ">

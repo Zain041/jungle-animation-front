@@ -68,6 +68,282 @@
   position: absolute;
   opacity: 0.6;
 }
+.grass {
+  width: 200px;
+  top: 92%;
+  left: 33%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass1 {
+  width: 200px;
+  top: 92%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass3 {
+  width: 200px;
+  top: 92%;
+  left: 20%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass4 {
+  width: 200px;
+  top: 92%;
+  left: 40%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass5 {
+  width: 200px;
+  top: 92%;
+  left: 50%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass6 {
+  width: 200px;
+  top: 92%;
+  left: 60%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass7 {
+  width: 200px;
+  top: 92%;
+  left: 70%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass8 {
+  width: 200px;
+  top: 92%;
+  left: 80%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass9 {
+  width: 200px;
+  top: 92%;
+  left: 85%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+
+.grass2 {
+  width: 200px;
+  top: 92%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+/* second */
+.grass20 {
+  width: 200px;
+  top: 201%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass21 {
+  width: 200px;
+  top: 201%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass10 {
+  width: 200px;
+  top: 201%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass11 {
+  width: 200px;
+  top: 201%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass12 {
+  width: 200px;
+  top: 201%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass13 {
+  width: 200px;
+  top: 201%;
+  left: 20%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass14 {
+  width: 200px;
+  top: 201%;
+  left: 40%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass15 {
+  width: 200px;
+  top: 201%;
+  left: 50%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass16 {
+  width: 200px;
+  top: 201%;
+  left: 60%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass17 {
+  width: 200px;
+  top: 201%;
+  left: 70%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass18 {
+  width: 200px;
+  top: 201%;
+  left: 80%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass19 {
+  width: 200px;
+  top: 201%;
+  left: 85%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+/* third */
+
+.grass33 {
+  width: 200px;
+  top: 301%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass32 {
+  width: 200px;
+  top: 301%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass31 {
+  width: 200px;
+  top: 301%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass30 {
+  width: 200px;
+  top: 301%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass29 {
+  width: 200px;
+  top: 301%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass28 {
+  width: 200px;
+  top: 301%;
+  left: 20%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass27 {
+  width: 200px;
+  top: 301%;
+  left: 40%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass26 {
+  width: 200px;
+  top: 301%;
+  left: 50%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass25 {
+  width: 200px;
+  top: 301%;
+  left: 60%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass24 {
+  width: 200px;
+  top: 301%;
+  left: 70%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass23 {
+  width: 200px;
+  top: 301%;
+  left: 80%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass22 {
+  width: 200px;
+  top: 301%;
+  left: 85%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
 .mask {
   width: 150px;
   top: 14%;
