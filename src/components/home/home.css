@@ -7,7 +7,29 @@
  
   height: 100vh;
 }
-
+.container-fluid .row {
+  overflow-x: hidden;
+}
+.section-2{
+  background-image: url("./assets/images/screen2.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 700px;
+  position: relative;
+  z-index: -100;
+}
+.section-3{
+  background-image: url("./assets/images/screen3.jpeg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  position: relative;
+  z-index: -100;
+}
 .main-2 {
   
   height: 100vh;
@@ -70,7 +92,7 @@
 }
 .palm-tree3{
   width:0%;
-  top:90%;
+  top:65%;
   height:0%;
   left:5%;
  
@@ -78,7 +100,7 @@
 }
 .palm-tree3-show{
   width:20%;
-  top:90%;
+  top:40%;
   height:60%;
   left:5%;
   position:absolute;
@@ -87,9 +109,17 @@
   
   
 }
+.tikimask2{
+  width:10%;
+  top:6.5%;
+  height:30%;
+  left:8%;
+  position:absolute;
+
+}
 .palm-tree2{
   width:0%;
-  top:90%;
+  top:40%;
   height:0%;
   right:3%;
   position:absolute;
@@ -100,7 +130,7 @@
 
 .palm-tree2-show{
   width:20%;
-  top:90%;
+  top:40%;
   height:60%;
   right:3%;
   position:absolute;
@@ -113,14 +143,14 @@
 
 .palm-tree8{
   width:0%;
-  top:70%;
+  top:150%;
   height:0%;
   left:20%;
   position:absolute;
 }
 .palm-tree8-show{
   width:20%;
-  top:70%;
+  top:20%;
   height:60%;
   left:20%;
   position:absolute;
@@ -129,9 +159,16 @@
   
   
 }
+.volcano{
+  width:40%;
+  top:25%;
+  height:40%;
+  left:30%;
+  position:absolute;
+}
 .palm-tree9{
   width:0%;
-  top:70%;
+  top:20%;
   height:0%;
   right:20%;
   position:absolute;
@@ -139,7 +176,7 @@
 
 .palm-tree9-show{
   width:20%;
-  top:70%;
+  top:20%;
   height:60%;
   right:20%;
   position:absolute;
@@ -148,13 +185,25 @@
   
   
 }
-.section-2{
-  height:900px;
-}
+
 .rabbit{
   width:100px;
-  top:120%;
+  top:60%;
   left:33%;
+  position:absolute;
+  opacity:1;
+}
+.lizard2{
+  width:100px;
+  top:20%;
+  right:13%;
+  position:absolute;
+  opacity:1;
+}
+.lizard3{
+  width:100px;
+  top:40%;
+  left:10%;
   position:absolute;
   opacity:1;
 }
@@ -167,8 +216,9 @@
 }
 .birds{
   width:100px;
-  top:50%;
+  top:10%;
   left:3%;
+  z-index: 10000;
   position:absolute;
   opacity:1;
 }

@@ -4,7 +4,12 @@ import waterfall2 from './assets/gif/waterfall2.gif'
 import waterfall3 from './assets/gif/waterfall3.gif'
 import waterfall5 from './assets/gif/waterfall5.gif'
 import snake from './assets/gif/snake.gif'
+import volcano from './assets/images/volcano/volcano.gif'
+import tikimask2 from './assets/images/tikimaskGIf/tikimask4.gif'
 import vines1 from './assets/images/vines1.png'
+import lizard from './assets/images/lizardsGif/lizard2.gif'
+import lizard2 from './assets/images/lizardsGif/lizard1.gif'
+import tree2 from './assets/images/tree5.png'
 import vines2 from './assets/images/vines2.png'
 import vines3 from './assets/images/vines3.png'
 import road1 from './assets/png/road1.png'
@@ -70,8 +75,12 @@ const Home = () => {
   
     }
     return (
-        <div  className="root">
-            <div className={` ${show==true?"main":"main-2"}`} style={{opacity:'',backgroundColor:'transparent'}}>
+        <div  className="root container-fluid p-0">
+            <div className="row">
+                <div className="col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-12">
+
+             
+            <div className={` ${show==true?"main":"main"}`} style={{opacity:'',backgroundColor:'transparent'}}>
                 <div>
                      <img width='300px' src={vines1} alt="" srcset="" style={{top:'0','left':'0',position:'fixed'}} />
                      <img  className={`waterfall ${show==true?"d-block":"d-none"}`}  src={waterfall2} alt="" srcset="" />
@@ -88,7 +97,16 @@ const Home = () => {
                      
 
                 </div>
-                <div className="section-2 ">
+              
+              
+            </div>
+          
+           
+            </div>
+            </div>
+            <div className="row p-0 m-0">
+            <div className=" p-0 m-0 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-12">
+            <div className="section-2 ">
                 <img  className={` ${showSecond==true?"palm-tree2-show":"palm-tree2"}`} src={palm1} alt="" srcset=""  />
                      <img  className={` ${showSecond==true?"palm-tree3-show visible":"palm-tree3 invisible"}`} src={palm1} alt="" srcset=""  />
                      <img className={` ${showSecond==true?"birds visible":"birds invisible"}`} src="https://www.animatedimages.org/data/media/230/animated-bird-image-0238.gif" border="0" alt="animated-bird-image-0238" />
@@ -98,9 +116,23 @@ const Home = () => {
                      <img className={` ${showSecond==true?"palm-tree8-show visible":"palm-tree8 insvisible"}`} src={palm1} alt="" srcset=""  />
                      <img className={` ${showSecond==true?"palm-tree9-show visible":"palm-tree9 invisible"}`} src={palm1} alt="" srcset=""  />
                 </div>
-              
             </div>
-             
+            </div>
+            <div className="row p-0 m-0">
+            <div className=" p-0 m-0 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-12">
+            <div className="section-3 ">
+                <img  className={` ${showSecond==true?"palm-tree2-show":"palm-tree2"}`} src={tree2} alt="" srcset=""  />
+                     <img  className={` ${showSecond==true?"tikimask2 visible":"palm-tree3 invisible"}`} src={tikimask2} alt="" srcset=""  />
+                     <img  className={` ${showSecond==true?"lizard2 visible":"rabbit invisible"}`} src={lizard}
+                          border="0" alt="animated-rabbit-image-0088" />
+                          <img  className={` ${showSecond==true?"lizard3 visible":"rabbit invisible"}`} src={lizard2}
+                          border="0" alt="animated-rabbit-image-0088" />
+                     <img className={` ${showSecond==true?"volcano visible":"palm-tree8 insvisible"}`} src={tree2} alt="" srcset=""  />
+                     <img className={` ${showSecond==true?"palm-tree9-show visible":"palm-tree9 invisible"}`} src={tree2} alt="" srcset=""  />
+                </div>
+            </div>
+            </div>
+           
         </div>
     )
 }
