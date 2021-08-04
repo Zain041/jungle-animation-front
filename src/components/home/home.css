@@ -1,18 +1,18 @@
 .main {
   background-image: url("./assets/images/front1.jpg");
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
- 
+
   height: 100vh;
 }
 .container-fluid .row {
   overflow-x: hidden;
 }
-.section-2{
+.section-2 {
   background-image: url("./assets/images/screen2.jpg");
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -20,9 +20,19 @@
   position: relative;
   z-index: -100;
 }
-.section-3{
+.section-3 {
   background-image: url("./assets/images/screen3.jpeg");
-  background-position:center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  position: relative;
+  z-index: -100;
+}
+.section-4 {
+  background-image: url("./assets/images/volcano.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -31,7 +41,6 @@
   z-index: -100;
 }
 .main-2 {
-  
   height: 100vh;
 }
 .waterfall {
@@ -39,189 +48,188 @@
   justify-content: center;
   align-items: center;
 }
-.road{
-  position:absolute;
-  top:0;
+.road {
+  position: absolute;
+  top: 0;
   z-index: -100;
+}
+.waterfall {
+  width: 20%;
+  height: 90%;
+  position: relative;
+  top: 250px;
+  left: 410px;
+  opacity: 0.8;
+}
+.turtle {
+  width: 100px;
+  top: 63%;
+  left: 33%;
+  position: absolute;
+  opacity: 0.6;
+}
+.mask {
+  width: 150px;
+  top: 14%;
+  left: 34%;
+  position: absolute;
+}
+.butterfly1 {
+  width: 100px;
+  top: 25%;
+  left: 25%;
+  position: absolute;
+}
+.palm-tree {
+  width: 20%;
+  top: 26%;
+  height: 60%;
+  left: 41%;
+  position: absolute;
+}
+.palm-tree1 {
+  width: 20%;
+  top: 26%;
+  height: 60%;
+  left: 20%;
+  position: absolute;
+}
+.palm-tree3 {
+  width: 0%;
+  top: 65%;
+  height: 0%;
+  left: 5%;
 
+  position: absolute;
 }
-.waterfall{
-  width:20%;
-  height:90%;
-  position:relative;
-  top:250px;
-  left:410px;
-  opacity:0.8;
+.palm-tree3-show {
+  width: 20%;
+  top: 40%;
+  height: 60%;
+  left: 5%;
+  position: absolute;
+  transition: 0.5s ease-in-out;
 }
-.turtle{
-  width:100px;
-  top:63%;
-  left:33%;
-  position:absolute;
-  opacity:0.6;
-
+.tikimask2 {
+  width: 10%;
+  top: 6.5%;
+  height: 30%;
+  left: 8%;
+  position: absolute;
 }
-.mask{
-  width:150px;
-  top:14%;
-  left:34%;
-  position:absolute;
-
-
-}
-.butterfly1{
-  width:100px;
-  top:25%;
-  left:25%;
-  position:absolute;
-
-}
-.palm-tree{
-  width:20%;
-  top:26%;
-  height:60%;
-  left:41%;
-  position:absolute;
-}
-.palm-tree1{
-  width:20%;
-  top:26%;
-  height:60%;
-  left:20%;
-  position:absolute;
-}
-.palm-tree3{
-  width:0%;
-  top:65%;
-  height:0%;
-  left:5%;
- 
-  position:absolute;
-}
-.palm-tree3-show{
-  width:20%;
-  top:40%;
-  height:60%;
-  left:5%;
-  position:absolute;
-  transition: 0.5s  ease-in-out;
-  
-  
-  
-}
-.tikimask2{
-  width:10%;
-  top:6.5%;
-  height:30%;
-  left:8%;
-  position:absolute;
-
-}
-.palm-tree2{
-  width:0%;
-  top:40%;
-  height:0%;
-  right:3%;
-  position:absolute;
- 
-  
-  
+.palm-tree2 {
+  width: 0%;
+  top: 40%;
+  height: 0%;
+  right: 3%;
+  position: absolute;
 }
 
-.palm-tree2-show{
-  width:20%;
-  top:40%;
-  height:60%;
-  right:3%;
-  position:absolute;
-  transition: 0.5s  ease-in-out;
-  
-  
-  
+.palm-tree2-show {
+  width: 20%;
+  top: 40%;
+  height: 60%;
+  right: 3%;
+  position: absolute;
+  transition: 0.5s ease-in-out;
 }
 
-
-.palm-tree8{
-  width:0%;
-  top:150%;
-  height:0%;
-  left:20%;
-  position:absolute;
+.palm-tree8 {
+  width: 0%;
+  top: 150%;
+  height: 0%;
+  left: 20%;
+  position: absolute;
 }
-.palm-tree8-show{
-  width:20%;
-  top:20%;
-  height:60%;
-  left:20%;
-  position:absolute;
-  transition: 0.5s  ease-in-out;
-  
-  
-  
+.palm-tree8-show {
+  width: 20%;
+  top: 20%;
+  height: 60%;
+  left: 20%;
+  position: absolute;
+  transition: 0.5s ease-in-out;
 }
-.volcano{
-  width:40%;
-  top:25%;
-  height:40%;
-  left:30%;
-  position:absolute;
+.volcano {
+  width: 40%;
+  top: 25%;
+  height: 40%;
+  left: 30%;
+  position: absolute;
 }
-.palm-tree9{
-  width:0%;
-  top:20%;
-  height:0%;
-  right:20%;
-  position:absolute;
+.volcano1 {
+  width: 85%;
+  top: 0%;
+  height: 80%;
+  left: 15%;
+  position: absolute;
 }
-
-.palm-tree9-show{
-  width:20%;
-  top:20%;
-  height:60%;
-  right:20%;
-  position:absolute;
-  transition: 0.5s  ease-in-out;
-  
-  
-  
+.palm-tree9 {
+  width: 0%;
+  top: 20%;
+  height: 0%;
+  right: 20%;
+  position: absolute;
 }
 
-.rabbit{
-  width:100px;
-  top:60%;
-  left:33%;
-  position:absolute;
-  opacity:1;
+.palm-tree9-show {
+  width: 20%;
+  top: 20%;
+  height: 60%;
+  right: 20%;
+  position: absolute;
+  transition: 0.5s ease-in-out;
 }
-.lizard2{
-  width:100px;
-  top:20%;
-  right:13%;
-  position:absolute;
-  opacity:1;
+
+.rabbit {
+  width: 100px;
+  top: 60%;
+  left: 33%;
+  position: absolute;
+  opacity: 1;
 }
-.lizard3{
-  width:100px;
-  top:40%;
-  left:10%;
-  position:absolute;
-  opacity:1;
+.lizard2 {
+  width: 100px;
+  top: 20%;
+  right: 13%;
+  position: absolute;
+  opacity: 1;
 }
-.lizard{
-  width:80px;
-  top:10%;
-  right:3%;
-  position:absolute;
-  opacity:1;
+.lizard3 {
+  width: 100px;
+  top: 40%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
 }
-.birds{
-  width:100px;
-  top:10%;
-  left:3%;
+.lizard {
+  width: 80px;
+  top: 10%;
+  right: 3%;
+  position: absolute;
+  opacity: 1;
+}
+.birds {
+  width: 100px;
+  top: 10%;
+  left: 3%;
   z-index: 10000;
-  position:absolute;
-  opacity:1;
+  position: absolute;
+  opacity: 1;
 }
-
-
-
+.monkey {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+}
+.tikimask-left {
+  position: absolute;
+  bottom: 10%;
+  width: 90px;
+  left: 20%;
+}
+.tikimask-right {
+  position: absolute;
+  bottom: 10%;
+  width: 90px;
+  right: 28%;
+}

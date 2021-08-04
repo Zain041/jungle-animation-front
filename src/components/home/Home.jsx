@@ -6,6 +6,7 @@ import waterfall5 from './assets/gif/waterfall5.gif'
 import snake from './assets/gif/snake.gif'
 import volcano from './assets/images/volcano/volcano.gif'
 import tikimask2 from './assets/images/tikimaskGIf/tikimask4.gif'
+import tikimask3 from './assets/images/tikimaskGIf/tikimask3.gif'
 import vines1 from './assets/images/vines1.png'
 import lizard from './assets/images/lizardsGif/lizard2.gif'
 import lizard2 from './assets/images/lizardsGif/lizard1.gif'
@@ -17,6 +18,8 @@ import road2 from './assets/images/front1.jpg'
 import road3 from './assets/images/front2.jpg'
 import screen2 from './assets/images/screen2.jpg'
 import pinetree from './assets/png/pineapple.png'
+import lava from './assets/png/lava.png'
+import volcanobg from './assets/images/volcano.jpg'
 import vines4 from './assets/png/vines4.png'
 import vines5 from './assets/png/vines5.png'
 import palm1 from './assets/images/coconut-tree.png'
@@ -29,7 +32,7 @@ import turtle1 from './assets/gif/turtle1.gif'
 
 
 
-import monkey from './assets/gif/monkey.gif'
+import monkey1 from './assets/gif/monkey1.gif'
 
 
 import AOS from 'aos'
@@ -123,12 +126,34 @@ const Home = () => {
             <div className="section-3 ">
                 <img  className={` ${showSecond==true?"palm-tree2-show":"palm-tree2"}`} src={tree2} alt="" srcset=""  />
                      <img  className={` ${showSecond==true?"tikimask2 visible":"palm-tree3 invisible"}`} src={tikimask2} alt="" srcset=""  />
+                     <img  className={` ${showSecond==true?"monkey visible":"palm-tree3 invisible"}`} src={monkey1} alt="" srcset=""  />
+
                      <img  className={` ${showSecond==true?"lizard2 visible":"rabbit invisible"}`} src={lizard}
                           border="0" alt="animated-rabbit-image-0088" />
                           <img  className={` ${showSecond==true?"lizard3 visible":"rabbit invisible"}`} src={lizard2}
                           border="0" alt="animated-rabbit-image-0088" />
                      <img className={` ${showSecond==true?"volcano visible":"palm-tree8 insvisible"}`} src={tree2} alt="" srcset=""  />
                      <img className={` ${showSecond==true?"palm-tree9-show visible":"palm-tree9 invisible"}`} src={tree2} alt="" srcset=""  />
+                </div>
+            </div>
+            </div>
+            <div className="row p-0 m-0">
+            <div className=" p-0 m-0 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-12">
+            <div className="section-4 ">
+                {/* <img  className={` ${showSecond==true?"palm-tree2-show":"palm-tree2"}`} src={tree2} alt="" srcset=""  /> */}
+                     {/* <img  className={` ${showSecond==true?"tikimask2 visible":"palm-tree3 invisible"}`} src={tikimask2} alt="" srcset=""  />
+                     <img  className={` ${showSecond==true?"lizard2 visible":"rabbit invisible"}`} src={lizard}
+                          border="0" alt="animated-rabbit-image-0088" />
+                          <img  className={` ${showSecond==true?"lizard3 visible":"rabbit invisible"}`} src={lizard2}
+                          border="0" alt="animated-rabbit-image-0088" /> */}
+                     <img className={` ${showSecond==true?"volcano1 visible":"palm-tree8 insvisible"}`}  src={volcano} alt="" srcset=""  />
+                     <img className={` ${showSecond==true?"tikimask-left visible":"tikimask invisible"}`} src={tikimask3} alt="" srcset=""
+                     
+                     
+                     />
+                      <img className={` ${showSecond==true?"tikimask-right visible":"tikimask invisible"}`} src={tikimask3} alt="" srcset=""
+                     
+                     />
                 </div>
             </div>
             </div>
