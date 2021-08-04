@@ -1,0 +1,177 @@
+.main {
+  background-image: url("./assets/images/front1.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+ 
+  height: 100vh;
+}
+
+.main-2 {
+  
+  height: 100vh;
+}
+.waterfall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.road{
+  position:absolute;
+  top:0;
+  z-index: -100;
+
+}
+.waterfall{
+  width:20%;
+  height:90%;
+  position:relative;
+  top:250px;
+  left:410px;
+  opacity:0.8;
+}
+.turtle{
+  width:100px;
+  top:63%;
+  left:33%;
+  position:absolute;
+  opacity:0.6;
+
+}
+.mask{
+  width:150px;
+  top:14%;
+  left:34%;
+  position:absolute;
+
+
+}
+.butterfly1{
+  width:100px;
+  top:25%;
+  left:25%;
+  position:absolute;
+
+}
+.palm-tree{
+  width:20%;
+  top:26%;
+  height:60%;
+  left:41%;
+  position:absolute;
+}
+.palm-tree1{
+  width:20%;
+  top:26%;
+  height:60%;
+  left:20%;
+  position:absolute;
+}
+.palm-tree3{
+  width:0%;
+  top:90%;
+  height:0%;
+  left:5%;
+ 
+  position:absolute;
+}
+.palm-tree3-show{
+  width:20%;
+  top:90%;
+  height:60%;
+  left:5%;
+  position:absolute;
+  transition: 0.5s  ease-in-out;
+  
+  
+  
+}
+.palm-tree2{
+  width:0%;
+  top:90%;
+  height:0%;
+  right:3%;
+  position:absolute;
+ 
+  
+  
+}
+
+.palm-tree2-show{
+  width:20%;
+  top:90%;
+  height:60%;
+  right:3%;
+  position:absolute;
+  transition: 0.5s  ease-in-out;
+  
+  
+  
+}
+
+
+.palm-tree8{
+  width:0%;
+  top:70%;
+  height:0%;
+  left:20%;
+  position:absolute;
+}
+.palm-tree8-show{
+  width:20%;
+  top:70%;
+  height:60%;
+  left:20%;
+  position:absolute;
+  transition: 0.5s  ease-in-out;
+  
+  
+  
+}
+.palm-tree9{
+  width:0%;
+  top:70%;
+  height:0%;
+  right:20%;
+  position:absolute;
+}
+
+.palm-tree9-show{
+  width:20%;
+  top:70%;
+  height:60%;
+  right:20%;
+  position:absolute;
+  transition: 0.5s  ease-in-out;
+  
+  
+  
+}
+.section-2{
+  height:900px;
+}
+.rabbit{
+  width:100px;
+  top:120%;
+  left:33%;
+  position:absolute;
+  opacity:1;
+}
+.lizard{
+  width:80px;
+  top:10%;
+  right:3%;
+  position:absolute;
+  opacity:1;
+}
+.birds{
+  width:100px;
+  top:50%;
+  left:3%;
+  position:absolute;
+  opacity:1;
+}
+
+
+
