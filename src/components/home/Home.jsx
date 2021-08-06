@@ -5,6 +5,9 @@ import waterfall3 from './assets/gif/waterfall3.gif'
 import waterfall5 from './assets/gif/waterfall5.gif'
 import snake from './assets/gif/snake.gif'
 import volcano from './assets/images/volcano/volcano.gif'
+import rooster1 from './assets/images/roosterGif/roostergif1.gif'
+import rooster2 from './assets/images/roosterGif/roostergif2.gif'
+import rooster4 from './assets/images/roosterGif/roostergif7-unscreen.gif'
 import tikimask2 from './assets/images/tikimaskGIf/tikimask4.gif'
 import tikimask3 from './assets/images/tikimaskGIf/tikimask3.gif'
 import vines1 from './assets/images/vines1.png'
@@ -61,7 +64,7 @@ const Home = () => {
         const isTop3=window.scrollY > 1100;
        
         if(isTop==true){
-         setShow(false)
+         setShow(true)
          setShowSecond(true)
        
            
@@ -86,16 +89,16 @@ const Home = () => {
              
             <div className={` ${show==true?"main":"main"}`} style={{opacity:'',backgroundColor:'transparent'}}>
                 <div>
-                     <img width='300px' src={vines1} alt="" srcset="" style={{top:'0','left':'0',position:'fixed'}} />
+                     <img className="vines1" src={vines1} alt="" srcset=""  />
                      <img  className={`waterfall ${show==true?"d-block":"d-none"}`}  src={waterfall2} alt="" srcset="" />
-                     <img width='300px' src={vines2} alt="" srcset="" style={{top:'0',right:'0',position:'fixed',filter: `brightness${120}%`}} />
+                     <img className="vines2" src={vines2} alt="" srcset=""  />
                      {/* <img width='200px' src={pinetree} alt="" srcset="" style={{top:'25%',right:'16%',position:'absolute'}} /> */}
                      <img  className={`palm-tree ${show==true?"d-block":"d-none"}`} src={palm1} alt="" srcset=""  />
                      <img  className={`palm-tree1 ${show==true?"d-block":"d-none"}`} src={palm1} alt="" srcset=""  />
-                     
+                     <img  className={`rooster1 ${show==true?"d-block":"d-none"}`} src={rooster1} alt="" srcset=""  />
                      <img className={`mask ${show==true?"d-block":"d-none"}`}  src={tikimasl1} alt="" srcset=""  />
-                     <img className={`butterfly1 ${show==true?"d-block":"d-none"}`}  src={butterfly1} alt="" srcset="" s />
-                     <img width='100px' src={butterfly2} alt="" srcset="" style={{top:'9%',left:'0',position:'absolute'}} />
+                     <img className={`butterfly1 ${show==true?"d-block":"d-none"}`}  src={butterfly1} alt="" srcset=""  />
+                     <img width='100px' src={butterfly2} alt="" srcset="" style={{top:'9%',left:'0',position:'absolute',zIndex:'51000'}} />
                      <img className="lizard" src="https://www.animatedimages.org/data/media/189/animated-lizard-image-0018.gif" border="0" alt="animated-lizard-image-0072" />
                      <img className={`turtle ${show==true?"d-block":"d-none"}`}  src={turtle1} alt="" srcset=""  />
                     
@@ -126,7 +129,7 @@ const Home = () => {
                 <img  className={` ${showSecond==true?"palm-tree2-show":"palm-tree2"}`} src={palm1} alt="" srcset=""  />
                      <img  className={` ${showSecond==true?"palm-tree3-show visible":"palm-tree3 invisible"}`} src={palm1} alt="" srcset=""  />
                      <img className={` ${showSecond==true?"birds visible":"birds invisible"}`} src="https://www.animatedimages.org/data/media/230/animated-bird-image-0238.gif" border="0" alt="animated-bird-image-0238" />
-                   
+                     <img  className={`rooster2 ${show==true?"d-block":"d-none"}`} src={rooster2} alt="" srcset=""  />
                          <img  className={` ${showSecond==true?"rabbit visible":"rabbit invisible"}`} src="https://www.animatedimages.org/data/media/327/animated-rabbit-image-0088.gif"
                           border="0" alt="animated-rabbit-image-0088" />
                      <img className={` ${showSecond==true?"palm-tree8-show visible":"palm-tree8 insvisible"}`} src={palm1} alt="" srcset=""  />
@@ -190,6 +193,7 @@ const Home = () => {
                      
                      
                      />
+                     <img  className={`rooster4 ${show==true?"d-block":"d-none"}`} src={rooster4} alt="" srcset=""  />
                       <img className={` ${showSecond==true?"tikimask-right visible":"tikimask invisible"}`} src={tikimask3} alt="" srcset=""
                      
                      />
