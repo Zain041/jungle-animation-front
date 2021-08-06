@@ -25,6 +25,13 @@
   position: absolute;
   opacity: 1;
 }
+.rooster3{
+  width: 200px;
+  top: 58%;
+  right: 33%;
+  position: absolute;
+  opacity: 1;
+}
 .rooster4{
   width: 200px;
   top: 73%;
@@ -1433,6 +1440,13 @@
     left: 41%;
     position: absolute;
   }
+  .rooster3{
+    width: 200px;
+    top: 55%;
+    right: 10%;
+    position: absolute;
+    opacity: 1;
+  }
   .rooster2{
     width: 150px;
     top: 73%;
@@ -1890,6 +1904,13 @@
     height: 25%;
     left: 47%;
     position: absolute;
+  }
+  .rooster3{
+    width: 200px;
+    top: 50%;
+    right: -8%;
+    position: absolute;
+    opacity: 1;
   }
   .rooster1{
     width: 150px;

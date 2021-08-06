@@ -7,6 +7,7 @@ import snake from './assets/gif/snake.gif'
 import volcano from './assets/images/volcano/volcano.gif'
 import rooster1 from './assets/images/roosterGif/roostergif1.gif'
 import rooster2 from './assets/images/roosterGif/roostergif2.gif'
+import rooster3 from './assets/images/roosterGif/roosterGif8.gif'
 import rooster4 from './assets/images/roosterGif/roostergif7-unscreen.gif'
 import tikimask2 from './assets/images/tikimaskGIf/tikimask4.gif'
 import tikimask3 from './assets/images/tikimaskGIf/tikimask3.gif'
@@ -156,7 +157,7 @@ const Home = () => {
                 <img  className={` ${showSecond==true?"palm-tree2-show":"palm-tree2"}`} src={tree2} alt="" srcset=""  />
                      <img  className={` ${showSecond==true?"tikimask2 visible":"palm-tree3 invisible"}`} src={tikimask2} alt="" srcset=""  />
                      <img  className={` ${showSecond==true?"monkey visible":"palm-tree3 invisible"}`} src={monkey1} alt="" srcset=""  />
-
+                     <img  className={`rooster3 ${show==true?"d-block":"d-none"}`} src={rooster3} alt="" srcset=""  />
                      <img  className={` ${showSecond==true?"lizard2 visible":"rabbit invisible"}`} src={lizard}
                           border="0" alt="animated-rabbit-image-0088" />
                           <img  className={` ${showSecond==true?"lizard3 visible":"rabbit invisible"}`} src={lizard2}
