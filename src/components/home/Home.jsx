@@ -11,6 +11,7 @@ import rooster3 from './assets/images/roosterGif/roosterGif8.gif'
 import rooster4 from './assets/images/roosterGif/roostergif7-unscreen.gif'
 import tikimask2 from './assets/images/tikimaskGIf/tikimask4.gif'
 import tikimask3 from './assets/images/tikimaskGIf/tikimask3.gif'
+import map from './assets/images/map3.jpg'
 import vines1 from './assets/images/vines1.png'
 import lizard from './assets/images/lizardsGif/lizard2.gif'
 import lizard2 from './assets/images/lizardsGif/lizard1.gif'
@@ -195,13 +196,182 @@ const Home = () => {
                      
                      />
                      <img  className={`rooster4 ${show==true?"d-block":"d-none"}`} src={rooster4} alt="" srcset=""  />
+                   
                       <img className={` ${showSecond==true?"tikimask-right visible":"tikimask invisible"}`} src={tikimask3} alt="" srcset=""
                      
                      />
                 </div>
             </div>
+            <img className="grass52" src={grass1} alt="" srcset=""  />
+            <img className="grass51" src={grass1} alt="" srcset=""  />
+            <img className="grass50" src={grass1} alt="" srcset=""  />
+            <img className="grass49" src={grass1} alt="" srcset=""  />
+            <img className="grass48" src={grass1} alt="" srcset=""  />
+            <img className="grass47" src={grass1} alt="" srcset=""  />
+            <img className="grass46" src={grass1} alt="" srcset=""  />
+            <img className="grass45" src={grass1} alt="" srcset=""  />
+            <img className="grass44" src={grass1} alt="" srcset=""  />
+            <img className="grass43" src={grass1} alt="" srcset=""  />
+            <img className="grass42" src={grass1} alt="" srcset=""  />
+            <img className="grass41" src={grass1} alt="" srcset=""  />
+            <img className="grass40" src={grass1} alt="" srcset=""  />
+            <div className="row p-0 m-0">
+            <div className=" p-0 m-0 col-xl-12 col-lg-12 col-sm-12 col-xs-12 col-12">
             </div>
-           
+            </div>
+            </div>
+            <div className="text">
+                        <div className="text-inner">
+                            <div className="content">
+                       <h3 className="text-center ">ROADMAP</h3>
+                       <div  className="row  content-row p-0">
+                           <div className="col-md-3 p-0 col-sm-4  col-xs-3 overflow-hidden offset-md-2  ">
+                           <h5 className="phase">PHASE I</h5>
+                            <ul>
+                                <li>
+                                    Token Creation
+                                </li>
+                                <li>
+                                    Website launched
+                                </li>
+                                <li>
+                                    White paper created
+                                </li>
+                                <li>
+                                    1,000+ Holders
+                                </li>
+                                <li>
+                                2,000+ Telegram members
+                                </li>
+                                <li>
+                                    Coingecko listing
+                                </li>
+                                <li>
+                                Coinmarketcap listing
+                                </li>
+                                <li>
+                                Swap/contract Audit
+                                </li>
+                            </ul>
+                           </div>
+                           <div className="col-md-3 p-0 col-sm-4 3 col-xs-3 overflow-x-hidden">
+                           <h5 className="phase">PHASE II</h5>
+                            <ul>
+                                <li>
+                                5,000+ holders
+
+                                </li>
+                                <li>
+                                10% burn of tokens (every 3 months)
+                                </li>
+                                <li>
+                                Sweepstakes creation
+                                </li>
+                                <li>
+                                10,000+ Telegram holders
+                                </li>
+                                <li>
+                                Marketing Campaign ( Telegram, twitter, instagtam, pintrest, <br></br>facebook, google, tiktok, youtube, discord and much more )
+                                </li>
+                                
+                            </ul>
+                           </div>
+                           <div className="col-md-3 p-0 col-sm-4 3 col-xs-3 overflow-x-hidden">
+                           <h5 className="phase">PHASE III</h5>
+                            <ul>
+                                <li>
+                                35,000 holders
+
+                                   
+                                </li>
+                                <li>
+                                Mutual Partnerships
+                                </li>
+                                <li>
+                                50,000+ Telegram holders
+                                </li>
+                                <li>
+                                NFT RPG creation
+                                </li>
+                                <li>
+                                2,000+ Telegram members
+                                </li>
+                                <li>
+                                10% burn of tokens (every 3 months)
+                                </li>
+                               
+                            </ul>
+                           </div>
+                           <div className="col-md-3 p-0 col-sm-4 col-xs-3 overflow-x-hidden offset-md-2">
+                           <h5 className="phase">PHASE IV</h5><br></br>
+                            <ul>
+                                <li>
+                                ios & android app wallet creation for marketplace
+
+
+                                </li>
+                                <li>
+                                integration of donations for charity's
+                                </li>
+                                <li>
+                                small exchange listings
+                                </li>
+                                <li>
+                                10% burn of tokens (every 3 months)
+                                </li>
+                                <li>
+                                2,000+ Telegram members
+                                </li>
+                                <li>
+                                60,000+ holders
+                                </li>
+                               
+                            </ul>
+                           </div>
+                           <div className="col-md-3 p-0 col-sm-4 3 col-xs-3 overflow-x-hidden">
+                           <h5 className="phase">PHASE V</h5><br></br>
+                            <ul>
+                                <li>
+                                100,000+ holders
+
+
+
+                                </li>
+                                <li>
+                                well know big exchange listings
+                                </li>
+                                <li>
+                                10% burn of tokens (every 3 months)
+                                </li>
+                                <li>
+                                more worldwide intense marketing
+                                </li>
+                                
+                               
+                            </ul>
+                           </div>
+                           <div className="col-md-3 p-0 col-sm-4 3 col-xs-3 overflow-x-hidden">
+                           <h5 className="phase">PHASE VI</h5><br></br>
+                            <ul>
+                                <li>
+                                HuliHuli to the next galaxy 
+
+
+
+                                </li>
+                                <li>
+                                10% Mystery burn date (after 1 year of launch)
+                                </li>
+                               
+                               
+                            </ul>
+                           </div>
+                       </div>
+                       </div>
+                       
+                            </div>
+
+                    </div>
         </div>
     )
 }

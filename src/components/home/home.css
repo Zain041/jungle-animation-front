@@ -7,6 +7,28 @@
 
   height: 100vh;
 }
+.text{
+  width:100%;
+  height:100vh;
+  background-image: url('./assets/images/map3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+ 
+}
+.text-inner{
+  color:#fff;
+  width:100%;
+  height:100vh;
+ 
+  background-color: rgba(0,0,0,0.8);
+}
+.content{
+  position:absolute;
+  top:415%;
+  z-index: 100000;
+}
 .container-fluid .row {
   overflow-x: hidden;
   
@@ -193,7 +215,7 @@
 /* second */
 .grass20 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 0%;
   position: absolute;
   opacity: 1;
@@ -201,7 +223,7 @@
 }
 .grass21 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 30%;
   position: absolute;
   opacity: 1;
@@ -209,7 +231,7 @@
 }
 .grass10 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 10%;
   position: absolute;
   opacity: 1;
@@ -217,7 +239,7 @@
 }
 .grass11 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 10%;
   position: absolute;
   opacity: 1;
@@ -225,7 +247,7 @@
 }
 .grass12 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 10%;
   position: absolute;
   opacity: 1;
@@ -233,7 +255,7 @@
 }
 .grass13 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 20%;
   position: absolute;
   opacity: 1;
@@ -241,7 +263,7 @@
 }
 .grass14 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 40%;
   position: absolute;
   opacity: 1;
@@ -249,7 +271,7 @@
 }
 .grass15 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 50%;
   position: absolute;
   opacity: 1;
@@ -257,7 +279,7 @@
 }
 .grass16 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 60%;
   position: absolute;
   opacity: 1;
@@ -265,7 +287,7 @@
 }
 .grass17 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 70%;
   position: absolute;
   opacity: 1;
@@ -273,7 +295,7 @@
 }
 .grass18 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 80%;
   position: absolute;
   opacity: 1;
@@ -281,17 +303,37 @@
 }
 .grass19 {
   width: 200px;
-  top: 201%;
+  top: 194%;
   left: 85%;
   position: absolute;
   opacity: 1;
   z-index: 10000;
 }
+.col-sm-3 .col-xs-3{
+  overflow-x:hidden;
+  padding: 0px;
+}
+.phase{
+  padding-left:37px ;
+}
+.row{
+  overflow-x: hidden;
+}
+.col-sm-3{
+  width:inherit;
+}
+ul >li{
+  list-style-type: none;
+  overflow-x: hidden;
+  padding: 0px;
+  margin:0px;
+
+}
 /* third */
 
 .grass33 {
   width: 200px;
-  top: 327%;
+  top: 300%;
   left: 0%;
   position: absolute;
   opacity: 1;
@@ -299,7 +341,7 @@
 }
 .grass32 {
   width: 200px;
-  top: 327%;
+  top: 300%;
   left: 30%;
   position: absolute;
   opacity: 1;
@@ -307,7 +349,7 @@
 }
 .grass31 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 0%;
   position: absolute;
   opacity: 1;
@@ -315,7 +357,7 @@
 }
 .grass30 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 10%;
   position: absolute;
   opacity: 1;
@@ -323,7 +365,7 @@
 }
 .grass29 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 30%;
   position: absolute;
   opacity: 1;
@@ -331,7 +373,7 @@
 }
 .grass28 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 20%;
   position: absolute;
   opacity: 1;
@@ -339,7 +381,7 @@
 }
 .grass27 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 40%;
   position: absolute;
   opacity: 1;
@@ -347,7 +389,7 @@
 }
 .grass26 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 50%;
   position: absolute;
   opacity: 1;
@@ -355,7 +397,7 @@
 }
 .grass25 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 60%;
   position: absolute;
   opacity: 1;
@@ -363,7 +405,7 @@
 }
 .grass24 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 70%;
   position: absolute;
   opacity: 1;
@@ -371,7 +413,7 @@
 }
 .grass23 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 80%;
   position: absolute;
   opacity: 1;
@@ -379,7 +421,7 @@
 }
 .grass22 {
   width: 200px;
-  top: 301%;
+  top: 293%;
   left: 85%;
   position: absolute;
   opacity: 1;
@@ -553,14 +595,362 @@
   right: 28%;
 }
 
+/* fourth */
+.grass52 {
+  width: 200px;
+  top: 393%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass51 {
+  width: 200px;
+  top: 393%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass50 {
+  width: 200px;
+  top: 393%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass49 {
+  width: 200px;
+  top: 393%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass48 {
+  width: 200px;
+  top: 393%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass47 {
+  width: 200px;
+  top: 393%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass46 {
+  width: 200px;
+  top: 393%;
+  left: 20%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass45 {
+  width: 200px;
+  top: 393%;
+  left: 40%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass44 {
+  width: 200px;
+  top: 393%;
+  left: 50%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass43 {
+  width: 200px;
+  top: 393%;
+  left: 60%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass42 {
+  width: 200px;
+  top: 393%;
+  left: 70%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass41 {
+  width: 200px;
+  top: 393%;
+  left: 80%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass40 {
+  width: 200px;
+  top: 393%;
+  left: 85%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+
 /* mobile responsive start */
 @media screen and (max-width: 768px) {
+  /* .phase{
+    padding-left:37px ;
+    font-size: 12px;
+  } */
+  .content-row{
+    width: 100vh;
+  }
+  /* html{
+    overflow-x: hidden;
+  }
+  h4{
+    font-size: 15px;
+  }
+  ul>li{
+    font-size: 9px;
+  } */
+
+  .grass52 {
+    width: 100px;
+  top: 395%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass51 {
+    width: 100px;
+  top: 395%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass50 {
+    width: 100px;
+    top: 395%;
+    left: 30%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass49 {
+    width: 100px;
+  top: 395%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass48 {
+    width: 100px;
+  top: 395%;
+    left: 10%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass47 {
+    width: 100px;
+    top: 395%;
+    left: 30%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass46 {
+    width: 100px;
+    top: 395%;
+    left: 20%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass45 {
+    width: 100px;
+    top: 395%;
+    left: 40%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass44 {
+    width: 100px;
+    top: 395%;
+    left: 50%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass43 {
+    width: 100px;
+    top: 395%;
+    left: 60%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass42 {
+    width: 100px;
+    top: 395%;
+    left: 70%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass41 {
+    width: 100px;
+    top: 395%;
+    left: 80%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass40 {
+    width: 100px;
+    top: 395%;
+    left: 80%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }.grass52 {
+    width: 100px;
+    top: 395%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass51 {
+  width: 100px;
+  top: 395%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass50 {
+  width: 100px;
+  top: 395%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass49 {
+  width: 100px;
+  top: 395%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass48 {
+  width: 100px;
+  top: 395%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass47 {
+  width: 100px;
+  top: 395%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass46 {
+  width: 100px;
+  top: 395%;
+  left: 20%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass45 {
+  width: 100px;
+  top: 395%;
+  left: 40%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass44 {
+  width: 100px;
+  top: 395%;
+  left: 50%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass43 {
+  width: 100px;
+  top: 395%;
+  left: 60%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass42 {
+  width: 100px;
+  top: 395%;
+  left: 70%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass41 {
+  width: 100px;
+  top: 395%;
+  left: 80%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass40 {
+  width: 100px;
+  top: 395%;
+  left: 85%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
   .palm-tree {
     width: 25%;
     top: 46%;
     height: 40%;
     left: 41%;
     position: absolute;
+  }
+  .text{
+    width:100%;
+    height:900px;
+    background-image: url('./assets/images/map3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    
+   
+  }
+  .text-inner{
+    color:#fff;
+    width:100%;
+    height:900px;
+   
+    background-color: rgba(0,0,0,0.8);
   }
   .palm-tree1 {
     width: 25%;
@@ -994,6 +1384,8 @@
 }
 /* ipad */
 @media screen and (max-width: 966px) {
+  
+  
   .palm-tree {
     width: 25%;
     top: 46%;
@@ -1433,12 +1825,267 @@
 }
 
 @media screen and (max-width: 400px) {
+  .grass52 {
+    width: 100px;
+  top: 395%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass51 {
+    width: 100px;
+  top: 395%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass50 {
+    width: 100px;
+    top: 395%;
+    left: 30%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass49 {
+    width: 100px;
+  top: 395%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass48 {
+    width: 100px;
+  top: 395%;
+    left: 10%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass47 {
+    width: 100px;
+    top: 395%;
+    left: 30%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass46 {
+    width: 100px;
+    top: 395%;
+    left: 20%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass45 {
+    width: 100px;
+    top: 395%;
+    left: 40%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass44 {
+    width: 100px;
+    top: 395%;
+    left: 50%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass43 {
+    width: 100px;
+    top: 395%;
+    left: 60%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass42 {
+    width: 100px;
+    top: 395%;
+    left: 70%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass41 {
+    width: 100px;
+    top: 395%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass40 {
+    width: 0px;
+    display: none;
+  top: 396%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }.grass52 {
+    width: 80px;
+  top: 396%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass51 {
+  width: 80px;
+  top: 396%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass50 {
+  width: 80px;
+  top: 396%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass49 {
+  width: 80px;
+  top: 396%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass48 {
+  width: 80px;
+  top: 396%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass47 {
+  width: 80px;
+  top: 396%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass46 {
+  width: 80px;
+  top: 396%;
+  left: 20%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass45 {
+  width: 80px;
+  top: 396%;
+  left: 40%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass44 {
+  width: 80px;
+  top: 396%;
+  left: 50%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass43 {
+  width: 80px;
+  top: 396%;
+  left: 60%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass42 {
+  width: 80px;
+  top: 396%;
+  left: 70%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass41 {
+  width: 80px;
+  top: 396%;
+  left: 80%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass40 {
+  width: 80px;
+  top: 396%;
+  left: 85%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+  .content-row{
+    width: 200px;
+  }
+  .phase{
+    padding-left:37px ;
+    font-size: 12px;
+    width:100vh;
+    float:left !important;
+  }
+  
+  html{
+    overflow-x: hidden;
+  }
+  h4{
+    font-size: 15px;
+  float:left !important;
+left:5;
+  }
+  ul>li{
+    font-size: 9px;
+    width:100vh;
+    float:left !important;
+  }
   .palm-tree {
     width: 25%;
     top: 46%;
     height: 30%;
     left: 41%;
     position: absolute;
+  }
+  .text{
+    width:100%;
+    height:1500px;
+    background-image: url('./assets/images/map3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    
+   
+  }
+  .text-inner{
+    color:#fff;
+    width:100%;
+    height:1500px;
+   
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .content{
+    position:absolute;
+    top:425%;
+    z-index: 100000;
   }
   .rooster3{
     width: 200px;
@@ -1898,6 +2545,214 @@
 }
 
 @media screen and (max-width: 320px) {
+  .grass52 {
+    width: 100px;
+    top: 421%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass51 {
+    width: 100px;
+    top: 421%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass50 {
+    width: 100px;
+    top: 421%;
+    left: 30%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass49 {
+    width: 100px;
+    top: 421%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass48 {
+    width: 100px;
+    top: 421%;
+    left: 10%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass47 {
+    width: 100px;
+    top: 421%;
+    left: 30%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass46 {
+    width: 100px;
+    top: 421%;
+    left: 20%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass45 {
+    width: 100px;
+    top: 421%;
+    left: 40%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass44 {
+    width: 100px;
+    top: 421%;
+    left: 50%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass43 {
+    width: 100px;
+    top: 421%;
+    left: 60%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass42 {
+    width: 100px;
+    top: 421%;
+    left: 70%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass41 {
+    width: 100px;
+    top: 421%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }
+  .grass40 {
+    width: 0px;
+    display: none;
+    top: 421%;
+    left: 0%;
+    position: absolute;
+    opacity: 1;
+    z-index: 10000;
+  }.grass52 {
+    width: 80px;
+    top: 421%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass51 {
+  width: 80px;
+  top: 421%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass50 {
+  width: 80px;
+  top: 421%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass49 {
+  width: 80px;
+  top: 421%;
+  left: 0%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass48 {
+  width: 80px;
+  top: 421%;
+  left: 10%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass47 {
+  width: 80px;
+  top: 421%;
+  left: 30%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass46 {
+  width: 80px;
+  top: 421%;
+  left: 20%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass45 {
+  width: 80px;
+  top: 421%;
+  left: 40%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass44 {
+  width: 80px;
+  top: 421%;
+  left: 50%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass43 {
+  width: 80px;
+  top: 421%;
+  left: 60%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass42 {
+  width: 80px;
+  top: 421%;
+  left: 70%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass41 {
+  width: 50px;
+  top: 421%;
+  left: 80%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
+.grass40 {
+  width: 50px;
+  top: 421%;
+  left: 85%;
+  position: absolute;
+  opacity: 1;
+  z-index: 10000;
+}
   .palm-tree {
     width: 25%;
     top: 63%;
